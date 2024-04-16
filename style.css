@@ -1,0 +1,106 @@
+/* CSS File: style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #d8e1e8, #98bad5);
+}
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1 {
+  color: #304674;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #465f93;
+  margin-bottom: 30px;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #304674;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover,
+.active {
+  background-color: #304674;
+  color: white;
+  box-shadow: 0px 0px 10px #304674;
+}
+
+.latest-posts {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.latest-posts marquee {
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #304674;
+}
+
+.column h3 {
+  color: #541219;
+  text-align: center;
+}
+
+.column ul {
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
+
+.column ul li a {
+  text-decoration: none;
+  color: #eb4e3f;
+}
+
+.column ul li a:hover {
+  color: #465f93;
+}
